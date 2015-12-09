@@ -6,9 +6,9 @@
 .DESCRIPTION
    Detailed information of each project will be obtained from the configuration file of the script.
 .EXAMPLE
-   .\Grab-ReleasePackage.ps1 -env Staging -dropzone '[dropzone location]'
+   .\Grab-ReleasePackage.ps1 -env Staging -dropzone "[dropzone location]"
 .EXAMPLE
-   .\Grab-ReleasePackage.ps1 -env Production -dropzone '[dropzone location]'
+   .\Grab-ReleasePackage.ps1 -env Production -dropzone "[dropzone location]"
 #>
 
 [CmdletBinding()]
